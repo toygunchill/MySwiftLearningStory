@@ -1,0 +1,1 @@
+Hi, I have completed Angela Yu's iOS programming tutorial. During this time, I will upload the applications I have developed to my repo. In the project you are currently reviewing, I learned the struct structure and how a quiz application should work.
