@@ -1,0 +1,1 @@
+Hi, I have completed Angela Yu's iOS programming tutorial. During this time, I will upload the applications I have developed to my repo. In this project, I consolidated my knowledge of Optional Elements and learned more about the MVC design pattern.
