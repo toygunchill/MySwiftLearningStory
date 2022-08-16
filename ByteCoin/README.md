@@ -1,0 +1,1 @@
+Hi, I have completed Angela Yu's iOS programming tutorial. During this time, I will upload the applications I have developed to my repo. In this project, I obtained the equivalent of the BTC I specified in different currencies by sending a query to an API. I showed this amount to the user.
