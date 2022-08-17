@@ -1,1 +1,2 @@
-
+Hi, I have completed Angela Yu's iOS programming tutorial. During this time, I will upload the applications I have developed to my repo. In this project, I made a dice application. It generates a random value between 2 and 12 when the button is clicked.
+![Simulator Screen Recording - iPhone 11 - 2022-08-17 at 10 14 26](https://user-images.githubusercontent.com/85456096/185059162-2916eaeb-e743-42d9-b0de-eb7980b0db74.gif)
