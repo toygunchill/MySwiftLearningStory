@@ -16,6 +16,7 @@
 		0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62818C235DF00B00E35CAF /* RegisterViewController.swift */; };
 		0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62818E235DF01000E35CAF /* LoginViewController.swift */; };
 		0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628190235DF01B00E35CAF /* ChatViewController.swift */; };
+		213D552C28B178A9002955FF /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 213D552B28B178A9002955FF /* IQKeyboardManagerSwift */; };
 		218F381928B0E9A700D19075 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218F381828B0E9A700D19075 /* Constants.swift */; };
 		218F381B28B0EB0500D19075 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 218F381A28B0EB0500D19075 /* GoogleService-Info.plist */; };
 		218F381E28B0EB3C00D19075 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 218F381D28B0EB3C00D19075 /* FirebaseAuth */; };
@@ -51,6 +52,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				218F382028B0EB3C00D19075 /* FirebaseDatabase in Frameworks */,
+				213D552C28B178A9002955FF /* IQKeyboardManagerSwift in Frameworks */,
 				218F381E28B0EB3C00D19075 /* FirebaseAuth in Frameworks */,
 				218F382228B0EB3C00D19075 /* FirebaseFirestore in Frameworks */,
 			);
@@ -141,6 +143,7 @@
 				218F381D28B0EB3C00D19075 /* FirebaseAuth */,
 				218F381F28B0EB3C00D19075 /* FirebaseDatabase */,
 				218F382128B0EB3C00D19075 /* FirebaseFirestore */,
+				213D552B28B178A9002955FF /* IQKeyboardManagerSwift */,
 			);
 			productName = "Flash Chat iOS13";
 			productReference = 0B628173235DEE8100E35CAF /* ChillChat.app */;
@@ -172,6 +175,9 @@
 			mainGroup = 0B62816A235DEE8100E35CAF;
 			packageReferences = (
 				218F381C28B0EB3C00D19075 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				213D552828B1783C002955FF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				213D552928B17887002955FF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				213D552A28B178A9002955FF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = 0B628174235DEE8100E35CAF /* Products */;
 			projectDirPath = "";
@@ -412,6 +418,30 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		213D552828B1783C002955FF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		213D552928B17887002955FF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		213D552A28B178A9002955FF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		218F381C28B0EB3C00D19075 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -423,6 +453,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		213D552B28B178A9002955FF /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 213D552A28B178A9002955FF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
 		218F381D28B0EB3C00D19075 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 218F381C28B0EB3C00D19075 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
