@@ -10,20 +10,14 @@ import UIKit
 
 class MessageCell: UITableViewCell {
 
-    @IBOutlet weak var label: UILabel! {
-        didSet {
-            label.textColor = UIColor(named: K.BrandColors.lightPurple)
-        }
-    }
-    @IBOutlet weak var messageBubble: UIView! {
-        didSet {
-            messageBubble.layer.cornerRadius = messageBubble.frame.height / 5
-        }
-    }
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var messageBubble: UIView!
     @IBOutlet weak var rightImageView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        messageBubble.layer.cornerRadius = messageBubble.frame.size.height / 5
+        label.textColor = UIColor(named: K.BrandColors.lightPurple)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
