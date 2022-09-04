@@ -1,0 +1,1 @@
+Hi, I have completed Atıl Samancıoğlu's iOS programming training. During this time, I will upload the applications I have developed to my repo. I learned how to use CoreData in this project. I designed an ArtBook where you can enter the images on your device and the name, year and artist information of the image.
