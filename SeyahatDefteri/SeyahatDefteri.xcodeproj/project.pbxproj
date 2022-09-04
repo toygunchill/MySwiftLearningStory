@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21309F2E28C547F0008A55D6 /* TravelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21309F2D28C547F0008A55D6 /* TravelListViewController.swift */; };
 		2177B6CE28C510A900CA339E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2177B6CD28C510A900CA339E /* AppDelegate.swift */; };
 		2177B6D028C510A900CA339E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2177B6CF28C510A900CA339E /* SceneDelegate.swift */; };
-		2177B6D228C510A900CA339E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2177B6D128C510A900CA339E /* ViewController.swift */; };
+		2177B6D228C510A900CA339E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2177B6D128C510A900CA339E /* MapViewController.swift */; };
 		2177B6D528C510A900CA339E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2177B6D328C510A900CA339E /* Main.storyboard */; };
 		2177B6D828C510A900CA339E /* SeyahatDefteri.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2177B6D628C510A900CA339E /* SeyahatDefteri.xcdatamodeld */; };
 		2177B6DA28C510A900CA339E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2177B6D928C510A900CA339E /* Assets.xcassets */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21309F2D28C547F0008A55D6 /* TravelListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelListViewController.swift; sourceTree = "<group>"; };
 		2177B6CA28C510A900CA339E /* SeyahatDefteri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeyahatDefteri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2177B6CD28C510A900CA339E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2177B6CF28C510A900CA339E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2177B6D128C510A900CA339E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2177B6D128C510A900CA339E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		2177B6D428C510A900CA339E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2177B6D728C510A900CA339E /* SeyahatDefteri.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeyahatDefteri.xcdatamodel; sourceTree = "<group>"; };
 		2177B6D928C510A900CA339E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +62,8 @@
 			children = (
 				2177B6CD28C510A900CA339E /* AppDelegate.swift */,
 				2177B6CF28C510A900CA339E /* SceneDelegate.swift */,
-				2177B6D128C510A900CA339E /* ViewController.swift */,
+				2177B6D128C510A900CA339E /* MapViewController.swift */,
+				21309F2D28C547F0008A55D6 /* TravelListViewController.swift */,
 				2177B6D328C510A900CA339E /* Main.storyboard */,
 				2177B6D928C510A900CA339E /* Assets.xcassets */,
 				2177B6DB28C510A900CA339E /* LaunchScreen.storyboard */,
@@ -141,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2177B6D228C510A900CA339E /* ViewController.swift in Sources */,
+				21309F2E28C547F0008A55D6 /* TravelListViewController.swift in Sources */,
+				2177B6D228C510A900CA339E /* MapViewController.swift in Sources */,
 				2177B6D828C510A900CA339E /* SeyahatDefteri.xcdatamodeld in Sources */,
 				2177B6CE28C510A900CA339E /* AppDelegate.swift in Sources */,
 				2177B6D028C510A900CA339E /* SceneDelegate.swift in Sources */,
