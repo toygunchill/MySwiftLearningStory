@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire",
+      "state" : {
+        "branch" : "master",
+        "revision" : "8dd85aee02e39dd280c75eef88ffdb86eed4b07b"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher",
+      "state" : {
+        "branch" : "master",
+        "revision" : "26a5aee988318f1a57adc9b9c3e676ce318630a8"
+      }
+    },
+    {
+      "identity" : "transitionbutton",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AladinWay/TransitionButton",
+      "state" : {
+        "branch" : "master",
+        "revision" : "ffd08cbaabb7a896ea63d80a8fa93a2759cacc5c"
+      }
+    }
+  ],
+  "version" : 2
+}
